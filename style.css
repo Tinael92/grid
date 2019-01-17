@@ -1,8 +1,66 @@
 html, body {
     margin: 0px;
     padding: 0px;
-    font-family: Arial;
+    font-family: 'Montserrat', sans-serif;
 }
 * {
     box-sizing: border-box;
+}
+header {
+    background: #000;
+    background: url(images/slider.png) 50% 50% no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    color: #fff;
+}
+.topSlider {
+    display: grid;
+    justify-items: center;
+    align-content: space-between;
+    padding: 40px 0px;
+    height: 100%;
+    width: 100%;
+    max-width: 1500px;
+    margin: 0px auto;
+}
+.arrDown {
+    display: block;
+    background: url(images/arrow.png) 50% 50% no-repeat;
+    width: 86px;
+    height: 45px;
+    margin: 0px auto;
+}
+.gridElement {
+    width: 100%;
+}
+.topLine {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu li {
+    display: inline;
+    padding-left: 70px;
+    text-transform: uppercase;
+}
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 40px;
+    letter-spacing: 3.5px;
+}
+.menu li a.sale {
+    color: #f84545;
 }
