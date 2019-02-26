@@ -2,11 +2,13 @@
 <head>
     <meta charset="UTF-8" />
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="js/slick.css">
+    <link rel="stylesheet" href="js/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Playfair+Display:400i,700i" rel="stylesheet">
     <link rel="stylesheet" href="style2.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script src="script.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="script2.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Shop Grid</title>
 </head>
@@ -26,7 +28,7 @@
                             <a href="/">Welcome msg!</a>
                         </li>
                         <li>
-                            <a href="/">My aacount</a>
+                            <a href="/">My account</a>
                         </li>
                         <li>
                             <a href="/">My wishlist</a>
@@ -73,6 +75,7 @@
                         <span class="cart">
                             Rupiah
                         </span>
+                        <span class="fa fa-angle-down"></span>
                     </div>
                 </div>
             </div>
@@ -98,27 +101,32 @@
                 <img src="images2/sale_slider.png" alt="Sale now!" />
                 <a class="btn slideBtn" href="#">Shop now</a>
             </div>
-            <div class="slider_controls">
-            </div>
         </div>
         <!-- Top Slider End -->
         <!-- Main Content -->
         <div class="container">
-           <section class="support">
-               <div class="support__item">
-                   <span class="fa fa-plane"></span>
-                   <span class="support__item_name">Free Shipping</span>
-                   <span class="support__item_text">In Order Min $200</span>
+            <section class="support">
+                <div class="support__item">
+                    <span class="fa fa-plane"></span>
+                    <span class="support__item_information">
+                        <span class="support__item_name">Free Shipping</span>
+                        <span class="support__item_text">In Order Min $200</span>
+                    </span>
+                   
                </div>
                <div class="support__item">
-                   <span class="fa fa-clock"></span>
-                   <span class="support__item_name">30-days returns</span>
-                   <span class="support__item_text">Money Back Garantee</span>
+                    <span class="fa fa-clock-o"></span>
+                    <span class="support__item_information">
+                        <span class="support__item_name">30-days returns</span>
+                        <span class="support__item_text">Money Back Garantee</span>
+                    </span>
                </div>
                <div class="support__item">
-                   <span class="fa fa-life-ring"></span>
-                   <span class="support__item_name">24/7 Support</span>
-                   <span class="support__item_text">Lifestyme support</span>
+                <span class="fa fa-life-ring"></span>
+                    <span class="support__item_information">
+                        <span class="support__item_name">24/7 Support</span>
+                        <span class="support__item_text">Lifestyme support</span>
+                    </span>
                </div>
            </section>
 
